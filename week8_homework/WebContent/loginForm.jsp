@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form action="to.jsp" method="post">
 <h2>★ 로그인 화면 ★</h2>
 <table border = "1">
 	<tr>
@@ -15,8 +16,9 @@
 	<tr>
 	<td>비밀번호</td>
 	<td><input type = "password" name="password"></td></tr>
-	<tr><td>
+	<tr><td colspan="2" align="center">
 	<input type="submit" value="로그인"></td></tr>
 	</table>
+</form>
 </body>
 </html>
