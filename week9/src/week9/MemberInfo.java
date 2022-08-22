@@ -25,8 +25,14 @@ public class MemberInfo {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public String getRegisterDate() {
+		return registerDate;
+	}
+	public void setRegisterDate(String registerDate) {
+		this.registerDate = registerDate;
+	}
 	public String getEmail() {
-		return name;
+		return email;
 	}
 	public void setEmail(String email) {
 		this.email = email;
